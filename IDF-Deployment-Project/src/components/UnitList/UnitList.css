@@ -1,0 +1,22 @@
+.unit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #888;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.unit-container.idle {
+    background-color: #d3d3d3;
+}
+
+.unit-container.active {
+    background-color: #ffcc00;
+}
+
+.unit-container.completed {
+    background-color: #4caf50;
+}
